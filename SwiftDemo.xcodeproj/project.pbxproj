@@ -107,17 +107,12 @@
 		A1FFDD941DCFD9850077601F /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A1FFDD951DCFD9850077601F /* AppDelegate.swift */,
+				A1FFDDD41DCFF2CF0077601F /* Appdelegate */,
+				A1FFDDD51DCFF2F20077601F /* InterfaceBuilder */,
+				A1FFDDD61DCFF3170077601F /* CoreDataTool */,
 				A1FFDDC81DCFDA2E0077601F /* HYRootViewController.swift */,
 				A1FFDDC61DCFDA180077601F /* HYFirstViewController.swift */,
 				A1FFDDC91DCFDA2E0077601F /* HYSecondViewController.swift */,
-				A1FFDDCC1DCFDA360077601F /* HYCoreDataTool.swift */,
-				A1FFDDD21DCFE2250077601F /* HYDATA.swift */,
-				A1FFDD991DCFD9850077601F /* Main.storyboard */,
-				A1FFDD9F1DCFD9860077601F /* Assets.xcassets */,
-				A1FFDDA11DCFD9860077601F /* LaunchScreen.storyboard */,
-				A1FFDDA41DCFD9860077601F /* Info.plist */,
-				A1FFDD9C1DCFD9850077601F /* SwiftDemo.xcdatamodeld */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -138,6 +133,35 @@
 				A1FFDDBA1DCFD9860077601F /* Info.plist */,
 			);
 			path = SwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		A1FFDDD41DCFF2CF0077601F /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFDD951DCFD9850077601F /* AppDelegate.swift */,
+			);
+			name = Appdelegate;
+			sourceTree = "<group>";
+		};
+		A1FFDDD51DCFF2F20077601F /* InterfaceBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFDDA41DCFD9860077601F /* Info.plist */,
+				A1FFDD991DCFD9850077601F /* Main.storyboard */,
+				A1FFDD9F1DCFD9860077601F /* Assets.xcassets */,
+				A1FFDDA11DCFD9860077601F /* LaunchScreen.storyboard */,
+			);
+			name = InterfaceBuilder;
+			sourceTree = "<group>";
+		};
+		A1FFDDD61DCFF3170077601F /* CoreDataTool */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFDDCC1DCFDA360077601F /* HYCoreDataTool.swift */,
+				A1FFDDD21DCFE2250077601F /* HYDATA.swift */,
+				A1FFDD9C1DCFD9850077601F /* SwiftDemo.xcdatamodeld */,
+			);
+			name = CoreDataTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
